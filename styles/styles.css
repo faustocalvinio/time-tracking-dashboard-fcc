@@ -1,0 +1,65 @@
+:root{
+    --blue: hsl(246, 80%, 60%);
+    --lightRedWork: hsl(15, 100%, 70%);
+    --lightRedStudy: hsl(348, 100%, 68%);
+    --limeGreenExercise : hsl(145, 58%, 55%);
+    --violetSocial: hsl(264, 64%, 52%);
+    --softOrangeSelfCare: hsl(43, 84%, 65%);
+    --veryDarkBlue: hsl(226, 43%, 10%);
+    --darkBlue: hsl(235, 46%, 20%);
+    --desaturatedBlue: hsl(235, 45%, 61%);
+    --paleBlue: hsl(236, 100%, 87%);
+    --softBluePlay: hsl(195, 74%, 62%);
+}
+
+body{
+    background-color: var(--veryDarkBlue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.jeremy{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+
+    /* height: 29rem; */
+    /* background-color: var(--lightRedStudy); */
+}
+.report-for{
+    background-color: var(--limeGreenExercise);
+    height: 20rem;
+}
+.options{
+    background-color: var(--darkBlue);
+    height: 9rem;
+}
+.box{
+    display: flex;
+    /* margin: 0; */
+}
+.container{
+    /* margin-top: 0rem; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+}
+.item{
+    /* margin: 0;
+    padding: 0; */
+    width: 14rem;
+    height: 14rem;
+    list-style: none;
+    background-color: var(--lightRedWork);
+    /* margin: 1rem;     */
+
+}
+.attribution{
+    position:absolute;
+    top: 88%;
+    left: 4%;
+}
