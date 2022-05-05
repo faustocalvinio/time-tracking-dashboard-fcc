@@ -56,11 +56,26 @@ body{
     list-style: none;
     background-color: var(--lightRedWork);
     /* margin: 1rem;     */
-
+    border-radius: 1rem;
+    z-index: 10;
 }
 .item-cont{
     background-color: var(--darkBlue);
-    height: inherit;
+    height: 11rem;
+    z-index: 1;
+    border-radius: 1rem;
+}
+.image-container{
+    height: 2rem;
+    position: relative;
+    z-index: -1;
+}
+.image-container img{
+    position: absolute;
+    right: 1rem;
+    top: -1rem;
+    width: 5rem;
+    z-index: 0;
 }
 .attribution{
     position:absolute;
