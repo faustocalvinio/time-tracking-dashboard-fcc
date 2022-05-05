@@ -58,6 +58,10 @@ body{
     /* margin: 1rem;     */
 
 }
+.item-cont{
+    background-color: var(--darkBlue);
+    height: inherit;
+}
 .attribution{
     position:absolute;
     top: 88%;
