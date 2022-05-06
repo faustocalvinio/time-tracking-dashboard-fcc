@@ -12,6 +12,7 @@
     --desaturatedBlue: hsl(235, 45%, 61%);
     --paleBlue: hsl(236, 100%, 87%);
     --softBluePlay: hsl(195, 74%, 62%);
+    --lightGray:rgba(255, 255, 255, 0.596);
 }
 
 body{
@@ -23,24 +24,42 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Rubik',sans-serif;
+    font-weight: 300;
 }
 .jeremy{
     display: flex;
     flex-direction: column;
     margin-top: 1rem;
     z-index: 10;
-    /* height: 29rem; */
-    /* background-color: var(--lightRedStudy); */
+    height: 29rem;
+    
+    width: 14rem;
+}
+.report-for-text{
+    color: var(--lightGray);
+    margin: 0;
+    margin-top: 2rem;
+}
+.jeremy-text{
+    font-size: 2rem;
+    color: #fff;
+    margin: 0;
+}
+.jeremy-img{
+    width: 4.5rem;
+    border: .2rem solid #fff;
+    border-radius: 100%;
 }
 .report-for{
     background-color:var(--blue);
-    height: 20rem;
+    height: 14.5rem;
     border-radius: 1rem;
     z-index:0;
+    padding: 2rem;
 }
 .options{
     background-color: var(--darkBlue);
-    height: 7rem;
+    height: 8.5rem;
     margin-top: -1rem;
     padding: 2rem 2rem 1rem;
     border-radius: 1rem;
@@ -49,23 +68,22 @@ body{
 }
 .box{
     display: flex;
-    /* margin: 0; */
+    
 }
 .container{
-    /* margin-top: 0rem; */
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 1rem;
 }
 .item{
-    /* margin: 0;
-    padding: 0; */
+    
     width: 14rem;
     height: 14rem;
     list-style: none;
     background-color: var(--lightRedWork);
-    /* margin: 1rem;     */
+    
     border-radius: 1rem;
     z-index: 10;
 }
@@ -116,10 +134,11 @@ body{
     color: #fff;
     font-size: 3rem;
     margin: 0;
+    font-weight: 300;
 
 }
 .last-week-hours{
-    color: rgba(255, 255, 255, 0.651);
+    color: var(--lightGray);
     margin: 0;
 
 }
@@ -143,11 +162,15 @@ body{
 }
 .attribution{
     position:absolute;
-    top: 88%;
+    top: 93%;
     left: 4%;
+    color: #fff;
+}
+.attribution a{
+    color: bisque;
 }
 .time-option{
-    color:rgba(255, 255, 255, 0.61);
+    color:var(--lightGray);
 }
 
 .time-option:hover{
