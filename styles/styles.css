@@ -106,13 +106,14 @@ body{
     height: 2rem;
     position: relative;
     z-index: -1;
+    overflow: hidden;
 }
 .image-container img{
     position: absolute;
     right: 1rem;
     top: -1rem;
     width: 5rem;
-    z-index: 0;
+    /* overflow: hidden; */
 }
 .icon-elipsis{
     width: 1rem;
