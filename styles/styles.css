@@ -111,8 +111,8 @@ body{
 .image-container img{
     position: absolute;
     right: 1rem;
-    top: -1rem;
-    width: 5rem;
+    top: -.7rem;
+    width: 4rem;
     /* overflow: hidden; */
 }
 .icon-elipsis{
@@ -180,4 +180,36 @@ body{
 }
 .active{
     color: #fff;
+}
+
+
+
+@media (max-width:600px){
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 85%;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .report-for{
+        width: 100%;
+    }
+    .item-cont{
+
+    }
+    .options{
+        width: 100%;
+    }
+    .container{
+        width: 90%;
+        margin: 0;
+    }
+
+    .attribution{
+        top: 450%;
+    }
 }
