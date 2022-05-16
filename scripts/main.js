@@ -1,6 +1,6 @@
 const qs=(param)=>document.querySelector(param);
 const qsa=(param)=>document.querySelectorAll(param);
-
+const iconElipsis=qsa('.icon-elipsis')
 const daily=qs('#daily');
 const weekly=qs('#weekly');
 const monthly=qs('#monthly');
@@ -48,3 +48,16 @@ monthly.addEventListener('click',()=>{
     }
 })
 
+
+
+// iconElipsis.forEach(element => {
+//     element.addEventListener('mouseover',()=>{
+//         element.target.style.color = "orange";
+
+//     })
+// });
+
+
+qs('#uno').addEventListener('mouseover',(e)=>{
+    // alert('a')   
+})
