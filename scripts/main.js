@@ -61,3 +61,56 @@ monthly.addEventListener('click',()=>{
 qs('#uno').addEventListener('mouseover',(e)=>{
     // alert('a')   
 })
+
+// document.getElementById('body').addEventListener('mouseover',()=>{
+//     daily.classList.toggle('active',false)
+//     monthly.classList.toggle('active',false)
+//     weekly.classList.toggle('active')
+//     for (let index = 0; index <=5; index++) {
+//         subjectsArray[index].innerHTML=finalData[index].title;
+//         arrayHoursText[index].innerHTML=finalData[index].timeframes.weekly.current;
+//         lastHoursArr[index].innerHTML=finalData[index].timeframes.weekly.previous;                
+//     }
+// })
+
+
+// document.getElementById('body').addEventListener('mouseover',()=>{
+//     daily.classList.toggle('active',false)
+//     monthly.classList.toggle('active',false)
+//     weekly.classList.toggle('active')
+//     for (let index = 0; index <=5; index++) {
+//         subjectsArray[index].innerHTML=finalData[index].title;
+//         arrayHoursText[index].innerHTML=finalData[index].timeframes.weekly.current;
+//         lastHoursArr[index].innerHTML=finalData[index].timeframes.weekly.previous;                
+//     }
+// })
+
+
+// const a =()=>{
+//     daily.classList.toggle('active',false)
+//     monthly.classList.toggle('active',false)
+//     weekly.classList.toggle('active')
+//     for (let index = 0; index <=5; index++) {
+//         subjectsArray[index].innerHTML=finalData[index].title;
+//         arrayHoursText[index].innerHTML=finalData[index].timeframes.weekly.current;
+//         lastHoursArr[index].innerHTML=finalData[index].timeframes.weekly.previous;                
+//     }
+// }
+
+// body.onload=a;
+
+
+
+// const a=()=>{
+//     daily.classList.toggle('active',false)
+//     monthly.classList.toggle('active',false)
+//     weekly.classList.toggle('active')
+//     for (let index = 0; index <=5; index++) {
+//         subjectsArray[index].innerHTML=finalData[index].title;
+//         arrayHoursText[index].innerHTML=finalData[index].timeframes.weekly.current;
+//         lastHoursArr[index].innerHTML=finalData[index].timeframes.weekly.previous;                
+//     }
+// }
+
+
+// a()
